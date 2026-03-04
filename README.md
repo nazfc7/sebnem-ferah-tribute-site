@@ -40,7 +40,7 @@ It was created using **HTML, CSS, and JavaScript**.
 - Album detail pages  
 - Real concert and album data integration  
 - Modal windows with JavaScript  
-- Dark / Light mode toggle  
+- Dark mode toggle  
 - Additional animations  
 
 ---

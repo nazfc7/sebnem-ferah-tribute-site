@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Şebnem Ferah — Fan Sayfası</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/sebnemferah.css">
+</head>
+<body>
+
+<header>
+  <div class="hero">
+    <div>
+      <h1>Şebnem Ferah</h1>
+      <p class="aciklama">Türk rock müziğinin güçlü sesi.</p>
+      <a class="buton" href="#albumler">Albümlere Bak</a>
+    </div>
+
+    <aside class="sanatci-karti">
+      <div class="sanatci-gorsel"><img src="/resim/s-6d99c2b4b3a133bd82306d7cfe468b8a288cf8dc.jpg" alt="" style="height: 220px;">
+      </div>
+      <div class="sanatci-bilgi">
+        <strong>İkonik Türk Rock Sanatçısı</strong>
+        <div style="margin-top:6px">12 Nisan 1972’de Yalova’da doğmuştur.</div>
+      </div>
+    </aside>
+  </div>
+</header>
+
+<main>
+
+<section id="albumler">
+  <h2>Öne Çıkan Albümler</h2>
+  <div class="grid" style="margin-top:14px">
+
+    <article class="kart album-karti">
+      <div class="album-gorsel"><img src="/resim/Şebnem_Ferah_Kadın.jpg" alt="" style="height: 140px;"></div>
+      <div class="album-adi">Kadın</div>
+      <div class="album-yili">1996</div>
+    </article>
+
+    <article class="kart album-karti">
+      <div class="album-gorsel"><img src="/resim/Şebnem_Ferah_Perdeler.jpg" alt="" style="height: 140px;"></div>
+      <div class="album-adi">Perdeler</div>
+      <div class="album-yili">2001</div>
+    </article>
+
+        <article class="kart album-karti">
+      <div class="album-gorsel"><img src="/resim/Kelimeler_Yetse_-_albüm_kapağı.jpg " alt="" style="height: 140px;"></div>
+      <div class="album-adi">Kelimeler Yetse </div>
+      <div class="album-yili">2003</div>
+    </article>
+
+    <article class="kart album-karti">
+      <div class="album-gorsel"><img src="/resim/sebo.jpg" alt="" style="height: 140px;"></div>
+      <div class="album-adi">Can Kırıkları</div>
+      <div class="album-yili">2005</div>
+    </article>
+
+
+
+  </div>
+</section>
+
+<section style="margin-top:36px">
+  <h2>Hakkında</h2>
+  <div class="hakkinda" style="margin-top:12px">
+    <div style="flex:1">
+      <p>
+        Şebnem Ferah diskografisi:<br><br>
+        1996: Kadın<br>
+        1999: Artık Kısa Cümleler Kuruyorum<br>
+        2001: Perdeler<br>
+        2003: Kelimeler Yetse<br>
+        2005: Can Kırıkları<br>
+        2007: 10 Mart 2007 İstanbul Konseri<br>
+        2009: Benim Adım Orman<br>
+        2013: Od<br>
+        2018: Parmak İzi
+      </p>
+    </div>
+
+    <div style="width:320px">
+      <div class="kart">
+        <strong>Son Güncellemeler</strong>
+        <div style="margin-top:8px;color:var(--soluk);font-size:13px">Yeni konser bilgisi yakında</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div style="max-width:1200px;margin:0 auto;display:flex;justify-content:space-between">
+    <div>© naz icen</div>
+    <div>Bu site deneme amaçlıdır.</div>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.album-karti').forEach(kart => {
+    kart.addEventListener('click', () => {
+      alert('Albüm detayları yakında eklenecek.');
+    });
+  });
+</script>
+
+</body>
+</html>

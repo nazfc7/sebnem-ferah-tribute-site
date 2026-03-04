@@ -1,40 +1,52 @@
-## Şebnem Ferah — Fan Page
-It is a static fan page website.
-It was created using HTML, CSS, and simple JavaScript.
+#  Şebnem Ferah — Fan Page
 
-## Purpose of the Project
-To consolidate HTML and CSS information
-To practice page layout, grid system and responsive design
-Adding simple JavaScript interactions
-Creating a portfolio web project on GitHub
+This project is a static fan page website dedicated to **Şebnem Ferah**, one of the legendary names in Turkish rock music.  
+It was created using **HTML, CSS, and JavaScript**.
 
-## Technologies Used
-HTML5
-CSS3
-CSS Variables
-Flexbox & Grid
-Responsive Design
-JavaScript
-DOM Selection
-Click Event Usage
-Google Fonts
-Montserrat
-Playfair Display
+---
 
- ## Features
-Hero area and artist info card
-Card design for albums
-Responsive (mobile-friendly) structure
-Information message when clicking on album cards
-Dark theme design
+##  Purpose
 
-## Enhandable features
-Album detail pages
-Real concert and album data
-Modal window with JavaScript
-Dark / light mode
-More animations
+- Consolidate HTML and CSS knowledge  
+- Practice page layout, grid system, and responsive design  
+- Implement basic JavaScript interactions  
+- Create a portfolio-ready web project for GitHub  
 
-## Developer
-naz icen
-This project was prepared for educational and testing purposes.
+---
+
+##  Technologies Used
+
+- **HTML5**  
+- **CSS3** (including CSS Variables)  
+- **Flexbox & Grid**  
+- **Responsive Design**  
+- **JavaScript** (DOM selection, click events)  
+- **Google Fonts**: Montserrat, Playfair Display  
+
+---
+
+##  Features
+
+- Hero area with artist info card  
+- Album card design  
+- Mobile-friendly responsive layout  
+- Information messages when clicking album cards  
+- Dark theme support  
+
+---
+
+##  Enhancements (Future Ideas)
+
+- Album detail pages  
+- Real concert and album data integration  
+- Modal windows with JavaScript  
+- Dark / Light mode toggle  
+- Additional animations  
+
+---
+
+## 👤 Developer
+
+**Naz İçen**
+
+> This project was prepared for educational and testing purposes.
